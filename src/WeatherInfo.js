@@ -1,4 +1,5 @@
 import react from "react";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(prosp) {
   return (
@@ -20,10 +21,8 @@ export default function WeatherInfo(prosp) {
         </div>
         <div className="col-6">
           <img src={prosp.data.iconUrl} alt={prosp.data.description} />
-          <span className="temperature">
-            {Math.round(prosp.data.temperature)}
-          </span>
-          <span className="unit">°C</span>
+
+          <WeatherTemperature celsius={prosp.data.temperature} />
         </div>
       </div>
     </div>
