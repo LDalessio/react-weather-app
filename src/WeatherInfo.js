@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(prosp) {
