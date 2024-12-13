@@ -22,11 +22,13 @@
 }
 .Weather img {
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .Weather .temperature {
-  font-size: 64px;
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 10px;
 }
 .Weather .unit {
   font-size: 16px;
